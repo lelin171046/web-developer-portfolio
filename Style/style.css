@@ -1,0 +1,43 @@
+nav{
+    display: flex;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+.navtt{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+.orenge{
+    color: lawngreen;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    border-radius: 5px;
+    background-color: lawngreen;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700px;
+    color: aliceblue;
+    padding: 12px 28px;
+}
+nav li{
+    list-style: none;
+    margin: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
