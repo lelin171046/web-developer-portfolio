@@ -19,6 +19,7 @@ nav > ul{
     align-items: center;
 }
 nav{
+    margin: 0 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,4 +41,15 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.hdr{
+    background-color: whitesmoke;
+}
+.banner{
+    align-items: center;
+    display: flex;
+    padding: 30px 30px 30px 150px;
+}
+.banner .dp{
+    width: 500px;
 }
