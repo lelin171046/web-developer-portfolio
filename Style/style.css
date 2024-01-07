@@ -98,13 +98,62 @@ main{
 .about-info{
     text-align: center;
 }
-.what-do{
+#what-do{
     padding: 30px 150px;
+
 }
+/skills ralated style*/
+
+
+
+
 /* about section style */
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0px;
+}
+.scetion-title-r{
+    text-align: center;
+}
+
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
+}
+.skill-description{
+    color: #757575;
+    
+}
+/*resume section style*/
+.reume-colum-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700px
+
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-institude{
+    margin-bottom: 20px;
+}
+.resume-institude, .resume-item-description{
+    color: #757575;
+    
+}
+.resume-item-title{
+    color: #757575;
+    font-size: 25px;
+    font-weight: 700px;
+    margin: 10px;
+
+}
+.download-cv{
+    text-align: center;
 }
