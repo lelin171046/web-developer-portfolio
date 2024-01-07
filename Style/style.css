@@ -43,10 +43,10 @@ nav a{
     color: #474747;
 }
 .hdr{
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-color: whitesmoke;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 .banner{
     align-items: center;
@@ -167,7 +167,7 @@ footer{
     gap: 100px;
 
 }
-.social-link a{
+.social-link{
     margin-right: 25px;
 }
 .footer-colum{
