@@ -164,5 +164,22 @@ footer{
     background: #fff8f3;
     padding: 130px 200px;
     margin-top: 100px;
+    gap: 100px;
 
+}
+.social-link a{
+    margin-right: 25px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input, textarea
+{
+    display: flex;
+    color: #757575;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    padding: 18px 35px;
+    border: 0;
+    width: 100%;
 }
