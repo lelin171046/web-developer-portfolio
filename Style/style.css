@@ -43,13 +43,54 @@ nav a{
     color: #474747;
 }
 .hdr{
+    background-image: url('../images/header_bg.png');
     background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     align-items: center;
     display: flex;
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .dp{
     width: 500px;
+}
+.bnr{
+    color: #474747;
+    margin-bottom: 0;
+    font-size: 45px;
+
+}
+.bnr-hding{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}   
+
+.section-title{
+
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+/* main scetion style */
+/* about section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0px;
 }
